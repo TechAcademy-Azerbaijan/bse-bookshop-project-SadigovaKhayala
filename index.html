@@ -4,16 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=hz, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/">
+
     <title>Document</title>
 </head>
 <body>
-    <h1>Kitab Mağazası</h1>
-    <a href="#">Ana səhifə </a>
-    <br> <hr><br>
-   <h2>David Eagleman- İncognito(Beyinin gizli həyatı)</h2>
-   <p ><b>12 AZN  </b> <s> 15 AZN</s></p>
-   <img width="200px" height=auto src="https://raw.githubusercontent.com/TechAcademy-Azerbaijan/bse-hw-day-1-SadigovaKhayala/master/day1/images/Inkognito.png" alt="">
-<p>Tanınmış nevroloq D.İqlmenin 20-dən çox dilə tərcümə edilən və
+  <header>
+     <a id="header" href="#">Kitab Mağazası </a>
+  </header>
+  <hr class="hr">
+  <div class="bookname">
+    <h2>David Eagleman- İncognito(Beyinin gizli həyatı)</h2>
+  </div> 
+  <div class="price">
+      <p class="currentPrice">12 AZN </p>
+      <p class="lastPrice">15 AZN </p>
+  </div>
+  <div class="backgroundImg">
+  </div>
+  <div class="aboutBook">
+    <h3 class="aboutHeader">qısa məzmun :</h3>
+   <p class="aboutContent">Tanınmış nevroloq D.İqlmenin 20-dən çox dilə tərcümə edilən və
     indidən klassik əsərə çevrilən bu kitabı<b> beynin sirli dünyası</b> na təcrübələr,
     elmi biliklər və tarixi faktlar işığında səyahət edir. Kitab tibbi mövzuda olsa
     da, müəllif yazarlıq məharətini və zəngin biliyini birləşdirərək elmi faktları
@@ -26,60 +38,87 @@
     və davranışlarına neyron və gen prizmasından baxmağı öyrədir. Elmi-
     populyar dildə yazılmış bu kitab xüsusən müəllimlər, psixoloqlar,
     valideynlər, həkimlər üçün mühüm bilikləri ehtiva edir.</p>
+  </div>
     <hr>
     <br>
-   <p><b> Xüsusiyyətlər</b></p> 
-    <table style="width:100%" border="1px"  >
-        <tr>
-          <th>Xüsusiyyətlər</th>
-          <th>Açıqlama </th>
-        </tr>
-        <tr>
-          <td>Dil</td>
-          <td>Azərbaycanca </td>
-        </tr>
-        <tr>
-            <td>Janr</td>
-            <td>Psixologiya </td>
+    <div class="specification">
+        <h3 class="SpecHeder">
+            Xüsusiyyətlər
+        </h3>
+        <table id="specTable"  >
+          <tr>
+            <th  >Xüsusiyyətlər</th>
+            <th >Açıqlama </th>
           </tr>
           <tr>
-            <td>Müəllif</td>
-            <td>David Eagleman  </td>
+            <td>Dil</td>
+            <td>Azərbaycanca </td>
           </tr>
-          
-            <td>Nəşriyyat </td>
-            <td>Qanun Nəşriyyatı  </td>
-          </tr>
-      </table>
-      <hr>
-      <p><b>Şərh yaz </b></p>
-      <label for="name">Tam adınız :</label> <br>
+          <tr>
+              <td>Janr</td>
+              <td>Psixologiya </td>
+            </tr>
+            <tr>
+              <td>Müəllif</td>
+              <td>David Eagleman  </td>
+            </tr>
+            <tr>
+              <td>Nəşriyyat </td>
+              <td>Qanun Nəşriyyatı </td>
+            </tr>
+        </table>
+      </div> 
+
+       <hr class="hr">
+
+
+     <div class="commentBox">
+      <div class="BackgroundRight"></div>
+      <div class="commentCenter">
+      <h3 class="commentHeader"> Şərh yaz</h3>
+
+    <form class="labelBox">
+      <label for="name" id="name">Tam adınız :</label>
       <input type="text" id="name "> <br> <br>
+      
       <label for="yesOrNo">Bu kitabı oxumusunuzmu?</label>
       <input  id="yesOrNo" type="checkbox"> <br> <br>
+      
       <label for="date">Nə vaxt oxumusunuz?</label>
-      <input type="date" name="" id="date"> <br> <br>
-      <label for="language">Hansı dildə oxumusunuz?</label> <br>
+      <input type="date" name="" id="date" placeholder="none"> <br><br>
+    
+      <label for="language">Hansı dildə oxumusunuz?</label> 
         <select name="language" id="language">
-        <option value="Azərbaycanca"> Azərbaycanca</option>
-        <option value="İngiliscə">  İngiliscə</option>
-        <option value="Rusca"> Rusca</option>
-      </select><br> <br>
+          <option value="Azərbaycanca"> Azərbaycanca</option>
+          <option value="İngiliscə">  İngiliscə</option>
+          <option value="Rusca"> Rusca</option>
+        </select> <br><br>
 
-      <label for="points">Qiymətləndirmə:</label>
-    <input type="range" id="points" name="points" min="0" max="10"> <br> <br>
+     <label for="points">Qiymətləndirmə:</label>
+    <input type="range" id="points" name="points" min="0" max="10"> 
+    <br> <br>
+
     <label for="comment ">Şərhiniz:</label> <br>
     <textarea id="comment" name="comment" rows="10" cols="30">  
-    </textarea> <br>
-    <button type="submit">Göndər</button>
-    <hr>
-    <ul>
+    </textarea> <br> <br>
+
+    <button  class="send" type="submit">Göndər</button>
+     </div>
+    <div class="BackgroundLeft"></div>
+
+    </form>
+    </div>
+    <hr class="hr">
+ 
+
+    <ul class="socialMedia">
          <li><a href="#">Facebook </a> </li>
          <li><a href="#">Youtube </a> </li>
          <li><a href="#">İnstagram </a> </li>
          <li><a href="#">Google </a> </li>
          <li><a href="#">Linkedin </a> </li>
- </ul> <hr>
+ </ul> 
+ <hr class="hr">
 <footer>
     <p>2020 © Bütün hüquqlar qorunur </p>
 </footer>
