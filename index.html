@@ -4,52 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=hz, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/57203a3952.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.google.com/">
+    <link rel="stylesheet" href="style2.css">
 
     <title>Document</title>
 </head>
 <body>
+ 
   <header>
      <a id="header" href="#">Kitab Mağazası </a>
   </header>
-  <hr class="hr">
-  <div class="bookname">
-    <h2>David Eagleman- İncognito(Beyinin gizli həyatı)</h2>
-  </div> 
-  <div class="price">
-      <p class="currentPrice">12 AZN </p>
-      <p class="lastPrice">15 AZN </p>
+ 
+
+  <div class="firstSection">
+    <div class="bookBackground"></div>
+
+ <div class="bookHeader">
+        <h2 class="bookName">David Eagleman- İncognito(Beyinin gizli həyatı)</h2>
+        
+        <div class="bookPrice">
+            <p class="currentPrice">12 AZN </p>
+            <p class="lastPrice">15 AZN </p>
+        </div>
   </div>
-  <div class="backgroundImg">
+
+    <div class="aboutBook">
+      <div class="shortHistory" > <h3 >qısa məzmun :</h3></div>
+     
+      <div class="historyContent"> 
+        <p>Tanınmış nevroloq D.İqlmenin 20-dən çox dilə tərcümə edilən və indidən klassik əsərə çevrilən bu kitabı beynin sirli dünyasına təcrübələr, elmi biliklər və tarixi faktlar işığında səyahət edir. Kitab tibbi mövzuda olsa da, müəllif yazarlıq məharətini və zəngin biliyini birləşdirərək elmi faktları sadə və müqayisəli dillə oxucularına təqdim edir. Müəllif əsər boyu sədaqət geni, qumarbazlara çevrilən parkinson xəstələri, gen-mühit əlaqəsi, “yaxşı” və “pis” gen, şüuraltı və qərarvermə mexanizmi, məsuliyyət anlayışı, beynin insan həyatında rolu kimi bir çox mövzulara toxunur.</p>
+      </div>
+
+      <div class="buttonAddBasket">
+       <a class="addBasket" href=""> Səbətə əlavə et </a>
+      </div>
+    <div >
+
   </div>
-  <div class="aboutBook">
-    <h3 class="aboutHeader">qısa məzmun :</h3>
-   <p class="aboutContent">Tanınmış nevroloq D.İqlmenin 20-dən çox dilə tərcümə edilən və
-    indidən klassik əsərə çevrilən bu kitabı<b> beynin sirli dünyası</b> na təcrübələr,
-    elmi biliklər və tarixi faktlar işığında səyahət edir. Kitab tibbi mövzuda olsa
-    da, müəllif yazarlıq məharətini və zəngin biliyini birləşdirərək elmi faktları
-    sadə və müqayisəli dillə oxucularına təqdim edir. Müəllif əsər boyu
-    sədaqət geni, qumarbazlara çevrilən parkinson xəstələri, gen-mühit
-    əlaqəsi,<u> “yaxşı” </u>və <u>“pis”</u> gen, şüuraltı və qərarvermə mexanizmi,
-    məsuliyyət anlayışı, beynin insan həyatında rolu kimi bir çox mövzulara
-    toxunur. Alim bu mövzuların beyinlə əlaqəsini izah etməklə kifayətlənmir,
-    beyinlə bağlı müxtəlif formullar və modellər irəli sürür. İnsan psixologiyası
-    və davranışlarına neyron və gen prizmasından baxmağı öyrədir. Elmi-
-    populyar dildə yazılmış bu kitab xüsusən müəllimlər, psixoloqlar,
-    valideynlər, həkimlər üçün mühüm bilikləri ehtiva edir.</p>
+  
+
+  
+  
   </div>
-    <hr>
-    <br>
-    <div class="specification">
-        <h3 class="SpecHeder">
-            Xüsusiyyətlər
-        </h3>
+  
+  </div>
+
+<div class="secondSection">
+        <h3 class="tableHeader"> Xüsusiyyətlər</h3>   
+
         <table id="specTable"  >
-          <tr>
-            <th  >Xüsusiyyətlər</th>
-            <th >Açıqlama </th>
-          </tr>
           <tr>
             <td>Dil</td>
             <td>Azərbaycanca </td>
@@ -67,60 +71,84 @@
               <td>Qanun Nəşriyyatı </td>
             </tr>
         </table>
-      </div> 
 
-       <hr class="hr">
-
-
-     <div class="commentBox">
-      <div class="BackgroundRight"></div>
-      <div class="commentCenter">
-      <h3 class="commentHeader"> Şərh yaz</h3>
-
-    <form class="labelBox">
-      <label for="name" id="name">Tam adınız :</label>
-      <input type="text" id="name "> <br> <br>
-      
-      <label for="yesOrNo">Bu kitabı oxumusunuzmu?</label>
-      <input  id="yesOrNo" type="checkbox"> <br> <br>
-      
-      <label for="date">Nə vaxt oxumusunuz?</label>
-      <input type="date" name="" id="date" placeholder="none"> <br><br>
     
+  </div> 
+
+    <div class="thirdSection">
+
+        <div class="BackgroundRight">
+             <img src="/images/Inkognito.png" alt="">
+        </div>
+<div id="commentBox">
+      <h3 class="commentHeader"> Şərh yaz</h3>
+      
+    <form class="commentLabel">
+        <div class="labelDiv">
+          <label for="name" id="name">Tam adınız :</label>
+          <input type="text" id="name ">
+        </div>
+      
+      <div class="labelDiv">
+          <label  for="yesOrNo">Bu kitabı oxumusunuzmu?</label>
+          <input  id="yesOrNo" type="checkbox"> 
+    </div>
+
+    <div class="labelDiv">
+        <label for="date">Nə vaxt oxumusunuz?</label>
+        <input type="date" name="" id="date" placeholder="none"> 
+    </div>
+
+    <div class="labelDiv">
       <label for="language">Hansı dildə oxumusunuz?</label> 
         <select name="language" id="language">
           <option value="Azərbaycanca"> Azərbaycanca</option>
           <option value="İngiliscə">  İngiliscə</option>
           <option value="Rusca"> Rusca</option>
-        </select> <br><br>
+        </select>
+    </div>
 
+    <div class="labelDiv">
      <label for="points">Qiymətləndirmə:</label>
     <input type="range" id="points" name="points" min="0" max="10"> 
-    <br> <br>
+  </div>
 
-    <label for="comment ">Şərhiniz:</label> <br>
+  <div class="labelDiv">
+    <label for="comment ">Şərhiniz:</label> 
     <textarea id="comment" name="comment" rows="10" cols="30">  
-    </textarea> <br> <br>
+    </textarea> 
+  </div>
 
     <button  class="send" type="submit">Göndər</button>
-     </div>
-    <div class="BackgroundLeft"></div>
 
-    </form>
+  </form>
+
+</div>
+    <div class="BackgroundLeft">
+      <img src="/images/Inkognito.png" alt="">
     </div>
-    <hr class="hr">
+  </div>
+  
  
+<div class="socialMedia">
 
-    <ul class="socialMedia">
-         <li><a href="#">Facebook </a> </li>
-         <li><a href="#">Youtube </a> </li>
-         <li><a href="#">İnstagram </a> </li>
-         <li><a href="#">Google </a> </li>
-         <li><a href="#">Linkedin </a> </li>
- </ul> 
- <hr class="hr">
+
+    <ul >
+         <li><i class="fa-brands fa-facebook"></i> </li>
+         <li><i class="fa-brands fa-youtube"></i></li>
+         <li><i class="fa-brands fa-instagram"></i> </li>
+         <li><i class="fa-brands fa-google"></i></li>
+         <li><i class="fa-brands fa-linkedin-in"></i> </li>
+         <li><a href="#">  </a> </li>
+    </ul>  
+</div>
+
+</div>
+
 <footer>
-    <p>2020 © Bütün hüquqlar qorunur </p>
+
+  <p id="footer">2020 © Bütün haqlar qorunur.</p>
+  
 </footer>
 </body>
 </html>
