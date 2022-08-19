@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 12.6vh;
+
+  border-radius: 0px;
+  background-color: #ffffff;
+}
+
+#header {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 12.6vh;
+  color: #109e97;
+  text-decoration: none;
+}
+
+nav {
+  width: 100%;
+  height: 7.3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #109e97;
+}
+.navbar {
+  width: 90%;
+  line-height: 7.3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.navbar ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar ul li {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-left: 1px solid #ffffff;
+  padding: 0 2rem;
+}
+.navbar ul li a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 0 2rem;
+  text-decoration: none;
+}
+
+.navbar ul li:last-child {
+  border-right: 1px solid #ffffff;
+}
+.navbar ul li:nth-child(4) {
+  background: #0e524e;
+}
+
+.navbar ul li:hover {
+  background-color: #077974;
+}
+.navbar ul li:active {
+  color: #077974;
+  background-color: #ffffff;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.firstSection,
+.thirdSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 50vh;
+  border-radius: 0px;
+  margin: 3rem;
+}
+.thirdSection {
+  opacity: 40%;
+}
+.thirdSection:hover {
+  opacity: 100%;
+}
+
+.bookBackground {
+  width: 40%;
+  height: 100%;
+  background: url(.jpg);
+  border-radius: 0px;
+  background-image: url(/bse-bookshop-project-SadigovaKhayala/images/Inkognito.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: left;
+  align-items: center;
+  justify-content: left;
+}
+
+.bookName {
+  display: block;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 26px;
+  margin-bottom: 1rem;
+}
+
+.currentPrice {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 25px;
+  color: #008000;
+  display: inline-block;
+}
+
+.lastPrice {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ff0000;
+  text-decoration: line-through;
+  display: inline-block;
+}
+
+.aboutBook {
+  display: flex;
+  width: 65%;
+  height: 33.71vh;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+  flex-direction: column;
+  border-radius: 0px;
+}
+
+.bookHistory {
+  display: flex;
+  text-align: right;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-top: 2rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  width: 60%;
+  height: 100%;
+  /* or 100% */
+
+  text-align: right;
+  letter-spacing: 2px;
+
+  color: #000000;
+}
+.mezmun {
+  text-align: right;
+  display: block;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: right;
+  text-transform: uppercase;
+  margin: 2rem 0 2rem;
+}
+
+.mezmunText {
+  height: 20vh;
+  overflow-y: auto;
+  direction: rtl;
+}
+
+.buttonAddBasket {
+  margin: 2rem 0 2rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 11.2vw;
+  height: 6.4vh;
+  background: #109e97;
+  border-radius: 4px;
+}
+
+.addBasket {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "Roboto";
+  text-align: center;
+}
+.secondSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 17vh;
+  border-radius: 0px;
+  margin: 3rem;
+  flex-direction: column;
+}
+
+.xusisiyyetler {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+
+#specTable td {
+  width: 1100px;
+  border-bottom: 1px solid;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #000000;
+}
+
+/* THIRD SECTION  */
+.thirdSection {
+  flex-direction: row;
+}
+
+.BackgroundRight,
+.BackgroundLeft {
+  width: 19vw;
+  height: auto;
+  border-radius: 0px;
+}
+
+#commentBox {
+  width: 35vw;
+  max-height: 35vw;
+  text-align: center;
+}
+
+.commentHeader {
+  margin: 1rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.labelDiv {
+  padding: 0.5rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+}
+
+.labelDiv input {
+  background: #ffffff;
+  border: 2px solid #767676;
+  border-radius: 0px;
+}
+
+.sherhiniz {
+  display: block;
+}
+
+.send {
+  width: 91px;
+  height: 48px;
+  background: #109e97;
+  border: 1px solid #109e97;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.socialMedia {
+  position: fixed;
+  right: 0%;
+  top: 10vw;
+}
+.socialMedia li {
+  background: #109e97;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  list-style: none;
+}
+.socialMedia li:last-child {
+  background: #808080;
+  margin-top: 30px;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: #109e97;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: #109e97;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#footer {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100px;
+  color: #ffffff;
+}
+
+.labelDiv input:focus {
+  background-color: rgba(248, 248, 111, 0.931);
+}
+
+#yesOrNo:checked {
+  width: 20px;
+  height: 20px;
+}

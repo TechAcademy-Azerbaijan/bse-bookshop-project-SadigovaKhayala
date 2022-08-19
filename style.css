@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.part1 {
+  width: 100%;
+  height: 14vh;
+  background: #ffffff;
+  border-radius: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.part1 h1 {
+  font-family: "Lobster Two", cursive;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 49px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: 700;
+
+  color: #109e97;
+}
+.navBar {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 8.8vh;
+  background: #109e97;
+  border-radius: 0px;
+}
+.navButtons {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  list-style: none;
+}
+
+.navButtons li {
+  text-decoration: none;
+  border-left: 1px solid white;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 4vw;
+}
+.navButtons li:last-child {
+  border-right: 1px solid white;
+  padding-right: 4vw;
+}
+.navButtons li a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.firstSection {
+  background: url(/bse-hw-day-4-SadigovaKhayala/day4/assets/paper_bg\ copy.jpg);
+  width: 100%;
+  height: 79.6vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: left;
+}
+
+#firstPagebook {
+  display: flex;
+  width: 80%;
+  height: 79.6vh;
+  align-items: center;
+  justify-content: space-around;
+}
+.bookContent {
+  width: 35vw;
+}
+.bookImage {
+  width: 300px;
+  height: 391px;
+}
+.submitButton {
+  width: 148px;
+  height: 44px;
+  background: #109e97;
+  border: 1px solid #109e97;
+  border-radius: 4px;
+  margin: 3vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  /* identical to box height, or 152% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.secondSection {
+  width: 100%;
+  height: 170vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.secondSection header {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 2vh;
+}
+
+.aboutLibrary {
+  height: 155vh;
+  width: 67vw;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 2px solid #916a6a;
+  border-radius: 0px;
+}
+.BookkSection {
+  height: 47vh;
+  width: 17.3vw;
+  border: 1px solid #109e97;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.bookTitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  /* identical to box height, or 107% */
+  padding: 1vh;
+  text-align: center;
+  color: #000000;
+}
+.BookkSection a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  /* identical to box height, or 107% */
+  text-decoration: none;
+  text-align: center;
+
+  color: #0000ee;
+}
+footer {
+  width: 100%;
+  height: 14vh;
+  background: #109e97;
+  border-radius: 0px;
+  margin-top: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
