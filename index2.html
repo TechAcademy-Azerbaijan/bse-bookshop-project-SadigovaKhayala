@@ -3,164 +3,188 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=hz, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/57203a3952.js"
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="https://fonts.google.com/" />
+    />
     <link rel="stylesheet" href="style2.css" />
-    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="https://fonts.google.com/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap");
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+    </style>
     <title>Document</title>
   </head>
-  <body>
-    <header>
-      <a id="header" href="#">Kitab Mağazası </a>
-    </header>
-    <nav>
-      <div class="navbar">
-      <ul>
-        <li><a href="index.html">Ana səhifə</a></li>
-        <li>Haqqımızda</li>
-        <li>Kateqoriyalar</li>
-        <li>Ayın kitabı</li>
-        <li>Əlaqə</li>
-      </ul></div>
-    </nav>
-    <div class="content">
+  <body style="width:100%;">
+    <div  class="col-12" style="background-color: rgba(23, 162, 184, 1); width: 100%;
+    ">
+      <nav class="navbar text-light navbar-expand-lg navbar-light bg-109e97">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="text-light navbar-brand" href="#">Kitab Mağazası </a>
 
-    <div class="firstSection">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0"></ul>
+          <form class="form-inline my-2 my-lg-0">
+            <li class="nav-item">
+              <a class="text-light nav-link" href="index.html"
+                >Ana səhifə <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="text-light nav-link" href="#">Haqqımızda</a>
+            </li>
 
-        <div class="bookBackground">
-          <img src="images/Inkognito.png" alt="">
-        </div>
+            <li class="nav-item">
+              <a class="text-light nav-link" href="#">Kateqoriyalar</a>
+            </li>
 
-        <div class="bookHistory">
-          <h2 class="bookName">
-            David Eagleman- İncognito(Beyinin gizli həyatı)
-          </h2>
+            <li class="nav-item active">
+              <a class="text-light nav-link font-weight-bold" href="#">Ayın kitabı</a>
+            </li>
 
-          <div class="bookPrice">
-            <p class="currentPrice">12 AZN</p>
-            <p class="lastPrice">15 AZN</p>
-          </div>
-          <h3 class="mezmun">qısa məzmun :</h3>
-          <div class="mezmunText">
-            <p>
-              Tanınmış nevroloq D.İqlmenin 20-dən çox dilə tərcümə edilən və
-              indidən klassik əsərə çevrilən bu kitabı beynin sirli dünyasına
-              təcrübələr, elmi biliklər və tarixi faktlar işığında səyahət edir.
-              Kitab tibbi mövzuda olsa da, müəllif yazarlıq məharətini və zəngin
-              biliyini birləşdirərək elmi faktları sadə və müqayisəli dillə
-              oxucularına təqdim edir. Müəllif əsər boyu sədaqət geni,
-              qumarbazlara çevrilən parkinson xəstələri, gen-mühit əlaqəsi,
-              “yaxşı” və “pis” gen, şüuraltı və qərarvermə mexanizmi, məsuliyyət
-              anlayışı, beynin insan həyatında rolu kimi bir çox mövzulara
-              toxunur. Alim bu mövzuların beyinlə əlaqəsini izah etməklə
-              kifayətlənmir, beyinlə bağlı müxtəlif formullar və modellər irəli
-              sürür. İnsan psixologiyası və davranışlarına neyron və
-            </p>
-          </div>
-          <div class="SebeteELaveEt">
-            <div class="buttonAddBasket"> <a class="addBasket" href=""> Səbətə əlavə et </a></div>
-           
-          </div>
-
-          <div></div>
-        </div>
-      </div>
-    
-
-
-
-    <div class="secondSection">
-        <h3 class="xusisiyyetler">Xüsusiyyətlər</h3>
-
-        <table id="specTable">
-          <tr>
-            <td>Dil</td>
-            <td>Azərbaycanca</td>
-          </tr>
-          <tr>
-            <td>Janr</td>
-            <td>Psixologiya</td>
-          </tr>
-          <tr>
-            <td>Müəllif</td>
-            <td>David Eagleman</td>
-          </tr>
-          <tr>
-            <td>Nəşriyyat</td>
-            <td>Qanun Nəşriyyatı</td>
-          </tr>
-        </table>
-      </div>
-
-      <div class="thirdSection">
-         
-       <img class="BackgroundLeft" src="images/Inkognito.png" />
-          
-        <div id="commentBox">
-          <h3 class="commentHeader">Şərh yaz</h3>
-
-          <form class="commentLabel">
-            <div class="labelDiv">
-              <label for="name" id="name">Tam adınız :</label>
-              <input type="text" id="name " />
-            </div>
-
-            <div class="labelDiv">
-              <label for="yesOrNo">Bu kitabı oxumusunuzmu?</label>
-              <input id="yesOrNo" type="checkbox" />
-            </div>
-
-            <div class="labelDiv">
-              <label for="date">Nə vaxt oxumusunuz?</label>
-              <input type="date" name="" id="date" placeholder="none" />
-            </div>
-
-            <div class="labelDiv">
-              <label for="language">Hansı dildə oxumusunuz?</label>
-              <select name="language" id="language">
-                <option value="Azərbaycanca">Azərbaycanca</option>
-                <option value="İngiliscə">İngiliscə</option>
-                <option value="Rusca">Rusca</option>
-              </select>
-            </div>
-
-            <div class="labelDiv">
-              <label for="points">Qiymətləndirmə:</label>
-              <input type="range" id="points" name="points" min="0" max="10" />
-            </div>
-
-            <div class="labelDiv">
-              <label class="sherhiniz" for="comment ">Şərhiniz:</label>
-              <textarea id="comment" name="comment" rows="10" cols="30">
-              </textarea>
-            </div>
-
-            <button class="send" type="submit">Göndər</button>
+            <li class="nav-item">
+              <a class="text-light nav-link" href="#">İstifadəçi</a>
+            </li>
           </form>
         </div>
-   
-          <img class="BackgroundLeft" src="images/Inkognito.png" />
+      </nav>
+    </div>
+    <div  class="row  m-0 p-0">
+      
+     
+
+      <div class="inkognito d-flex mt-3 flex-column align-items-center justify-content-center text-center" style="width:100%">
+            <img style="height:450px; width:300px;" src="images/Inkognito.png" alt="" />
+             <h3>İncognito (beyinin gizli həyatı)</h3>
+             <div class="price d-flex text-center align-items-center justify-content-center">
+             <h5 class="text-success mr-2" style="font-size: 18px;" >12AZN</h5>
+             <h5 class="text-danger"  style="font-size: 13px;">15AZN</h5>
+            </div>
+             <div class="container">
+             <p>Tanınmış nevroloq D.İqlmenin 20-dən çox dilə tərcümə edilən və indidən klassik əsərə çevrilən bu kitabı beynin sirli dünyasına təcrübələr, elmi biliklər və tarixi faktlar işığında səyahət edir. Kitab tibbi mövzuda olsa da, müəllif yazarlıq məharətini və zəngin biliyini birləşdirərək elmi faktları sadə və müqayisəli dillə oxucularına təqdim edir. Müəllif əsər boyu sədaqət geni, qumarbazlara çevrilən parkinson xəstələri, gen-mühit əlaqəsi, “yaxşı” və “pis” gen, şüuraltı və qərarvermə mexanizmi, məsuliyyət anlayışı, beynin insan həyatında rolu kimi bir çox mövzulara toxunur. Alim bu mövzuların beyinlə əlaqəsini izah etməklə kifayətlənmir, beyinlə bağlı müxtəlif formullar və modellər irəli sürür. İnsan psixologiyası və davranışlarına neyron və gen prizmasından baxmağı öyrədir. Elmi-populyar dildə yazılmış bu kitab xüsusən müəllimlər, psixoloqlar, valideynlər, həkimlər üçün mühüm bilikləri ehtiva edir.</p>
+            </div>
+          
+            <p class="lead">
+              <a style="background-color: rgba(23, 162, 184, 1);" class="btn text-white btn-lg" href="#" role="button">Araştır</a>
+            </p>
       </div>
 
-      <div class="socialMedia">
-        <ul>
-          <li><i class="fa-brands fa-facebook"></i></li>
-          <li><i class="fa-brands fa-youtube"></i></li>
-          <li><i class="fa-brands fa-instagram"></i></li>
-          <li><i class="fa-brands fa-google"></i></li>
-          <li><i class="fa-brands fa-linkedin-in"></i></li>
-          <li><i class="fa-solid fa-angles-up"></i></li>
-        </ul>
+      <div class="alert alert-warning text-center" role="alert" style="width:100% ">
+        Bu kitabdan cəmi 2 ədəd qalıb
       </div>
+
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Xüsusiyyətlət</th>
+            <th scope="col">Açıqlama</th>
+        
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Dil</td>
+            <td>Azərbaycanca</td>
+      
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Janr</td>
+            <td>Psixologiya</td>
+      
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Müəllif </td>
+            <td>David Eagleman</td>
+      
+          </tr>
+          <tr>
+            <th scope="row">4
+            </th>
+            <td>Nəşriyyat</td>
+            <td>Qanun Nəşriyyatı</td>
+      
+          </tr>
+        </tbody>
+      </table>
+
+    <div class="formTable " style="width:100%">
+      <h3 class="text-center m-3" >ŞƏRH YAZ</h3>
+      <form class="commentLabel " >
+        <div class="labelDiv">
+          <label for="name" id="name">Tam adınız :</label>
+          <input style="width:100%" type="text" id="name " />
+        </div>
+        <div class="labelDiv">
+          <label for="name" id="name">Hansı dildə oxumusunuz? :</label>
+          <select name="language" id="language " style="width:100%" >
+            <option value="Azərbaycanca">Azərbaycanca</option>
+            <option value="İngiliscə">İngiliscə</option>
+            <option value="Rusca">Rusca</option>
+          </select>
+        </div>
+  
+        <div class="labelDiv">
+          <label for="points">Qiymətləndirmə:</label>
+          <input style="width:100%" type="range" id="points" name="points" min="0" max="10" />
+        </div>
+
+        <div class="labelDiv">
+          <label class="sherhiniz" for="comment ">Şərhiniz:</label>
+          <textarea style="width:100%" id="comment" name="comment" rows="10" cols="30">
+          </textarea>
+        </div>
+       
+         <button style="height: 40px; width:100px;" class="btn-primary mb-3 ">Göndər</button>
+
+        </div>
+    
+
+      </form>
     </div>
-  </div> 
-    <footer>
-      <p id="footer">2020 © Bütün haqlar qorunur.</p>
+
+          </div>
+        </div>
+      </div>
+
+    <footer class="mb-0 d-flex justify-content-center align-items-center"  style="background-color: rgba(23, 162, 184, 1); width: 100%; width: 100%; height: 5rem;">
+      <p class="text-white">Copyright © E-mağaza layihəsi</p>
     </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
