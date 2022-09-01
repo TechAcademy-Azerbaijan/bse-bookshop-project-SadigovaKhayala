@@ -1,0 +1,151 @@
+@import "./utils/_reset"
+@import "./utils/_mixins"
+@import  "./utils/_variables"
+@import "./utils/_style"
+
+
+.navbar
+    background-color: $bg-color
+    @include flex ($direction:row, $justify:space-around , $align:center )
+    @include font ($size:16px , $align:center )
+    width: 100%
+    height: 5rem
+
+
+.logo
+      @include font ($size:20px, $align:left ) 
+      color: $color
+      @include padding($left:3rem )
+
+.menu
+    width: 40%
+    height: 100%
+    ul
+        @include flex ($direction:row, $justify:space-around , $align:center )
+        width: 100%
+        height: 100%
+        @include font ($size:16px, $align:left )
+
+.book-library
+        @include flex ($direction:row, $justify:space-around , $align:center )
+        flex-wrap: wrap
+        width:60%
+
+.book-inkognito
+    @include flex ($direction:column, $justify:space-around , $align:left )
+    border: 1px solid rgba(0, 0, 0, 0.125)
+
+    h3
+       margin-left:1rem
+    p
+       margin-left:1rem
+        
+
+.card-img
+    width: 200px
+    height: 302px
+
+.button-etrafli
+    width: 70px
+    height: 38px
+    color: $color
+    background-color: $bg-color
+    border-radius: 4px
+    @include flex ($direction:row, $justify:center , $align:center )
+    margin-left:1rem
+    margin-bottom: 1rem
+.pre-footer
+    width: 100%
+    margin-top: 2rem
+    background-color: $bg-color
+.containerr
+    width: 100%
+    margin-top: 2rem
+    @include flex ($direction:column , $justify:center , $align:center )
+    
+    
+
+.inner-container
+    width: 70%
+    height: auto
+    @include flex ($direction:row , $justify:space-between , $align:right )
+
+.about-inkognito
+    width: 70%   
+    @include font ($size:null , $align:right )
+    @include flex ($direction:column , $justify:center , $align:flex-end )
+    
+    
+    
+ 
+.rectangle
+ 
+
+.price
+   @include flex ($direction:row , $justify:right , $align:center )
+
+       
+    
+    
+
+.rectangle-text
+    width: 70%
+    height: auto
+    @include flex ($direction:column , $justify:center , $align:left )
+    padding: 5rem
+
+.button-warning
+    width: 5rem
+    height: 2rem
+    background-color: $bg-warning
+    border: 1px solid #FFC107
+    @include flex ($direction:null , $justify:center , $align:center )
+    
+
+.button-main
+    width: 8rem
+    height: 2rem
+    background-color: $bg-color
+    border: 1px solid $bg-color
+    @include flex ($direction:null , $justify:center , $align:left )
+    border-radius: 4px
+    
+
+.comment-form
+    @include flex ($direction:column , $justify:center , $align:left )
+    width: 70%
+
+label
+    margin-top: 1rem
+    margin-bottom: 0.5rem
+
+footer
+    background-color: $bg-color
+    height: 4rem
+    @include flex ($direction:column , $justify:center , $align:center )
+    margin-top: 3rem
+
+
+
+ 
+    
+      
+   
+
+    
+
+
+    
+    
+
+    
+    
+       
+      
+
+
+
+
+    
+
+    
